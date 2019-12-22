@@ -1,0 +1,13 @@
+[package]
+name = "sudoku_solver-wasm"
+version = "0.1.5"
+authors = ["chamodanethra <chamodananayakkara@gmail.com>"]
+description = "An optimized backtracking algorithm using Rust to solve a sudoku grid with wasm-pack"
+repository = "https://github.com/chamodanethra/sudoku_solver-wasm"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = { version = "^0.2", features = ["serde-serialize"] }
