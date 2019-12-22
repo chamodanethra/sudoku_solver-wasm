@@ -1,9 +1,10 @@
 [package]
 name = "sudoku_solver-wasm"
-version = "0.1.5"
+version = "0.1.6"
 authors = ["chamodanethra <chamodananayakkara@gmail.com>"]
 description = "An optimized backtracking algorithm using Rust to solve a sudoku grid with wasm-pack"
 repository = "https://github.com/chamodanethra/sudoku_solver-wasm"
+license = "MIT"
 edition = "2018"
 
 [lib]
